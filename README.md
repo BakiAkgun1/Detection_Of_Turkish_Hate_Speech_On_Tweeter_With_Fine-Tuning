@@ -44,6 +44,8 @@ This project aims to detect hate speech in Turkish tweets using machine learning
 - **Result:** Added a `corrected_tweet` column to the dataset.  
 - **Output:** The corrected data was saved as `data_cleaned_with_corrections.csv`.
 
+![image](https://github.com/user-attachments/assets/01dd2951-f682-43a6-b0c5-3681913efadc)
+
 ---
 
 ## Fine-Tuning Turkish Word2Vec Model
@@ -71,15 +73,8 @@ This project aims to detect hate speech in Turkish tweets using machine learning
 - **Performance Metrics:** Results were evaluated on the `data_cleaned_with_corrections.csv` dataset.  
 - **Performance Table:**
 
-| Model          | Precision | Recall | F1-Score | Accuracy |
-|----------------|-----------|--------|----------|----------|
-| Gradient Boosting | 0.70      | 0.68   | 0.69     | 0.71     |
-| XGBoost        | 0.73      | 0.71   | 0.72     | 0.74     |
-| Random Forest  | 0.75      | 0.72   | 0.73     | 0.76     |
-| CatBoost       | 0.76      | 0.73   | 0.74     | 0.77     |
-| ANN            | 0.72      | 0.69   | 0.70     | 0.73     |
-
 ---
+![image](https://github.com/user-attachments/assets/e47b0bc3-c5c2-4ff4-88ba-5dabd8d190b1)
 
 ## Class Imbalance Handling
 
@@ -91,13 +86,12 @@ This project aims to detect hate speech in Turkish tweets using machine learning
 - **Impact on Results:**  
   - Improved balance without compromising dataset integrity.  
   - **Performance After Resampling:**
+**After Undersampling Process**
+![image](https://github.com/user-attachments/assets/be140421-ab78-46f0-8da3-12e48729160e)
 
-| Model          | Resampling Method | Precision | Recall | F1-Score | Accuracy |
-|----------------|-------------------|-----------|--------|----------|----------|
-| XGBoost        | SMOTE             | 0.76      | 0.75   | 0.75     | 0.77     |
-| Random Forest  | Combination       | 0.78      | 0.76   | 0.77     | 0.79     |
+**After Oversampling(SMOTE) Process**
+![image](https://github.com/user-attachments/assets/b4516d5b-c6f9-4c03-85e8-a7c224b778f1)
 
----
 
 ## Results and Observations
 
