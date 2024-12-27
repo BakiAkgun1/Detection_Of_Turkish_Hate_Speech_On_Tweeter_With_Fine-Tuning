@@ -87,9 +87,11 @@ This project aims to detect hate speech in Turkish tweets using machine learning
   - Improved balance without compromising dataset integrity.  
   - **Performance After Resampling:**
 **After Undersampling Process**
+
 ![image](https://github.com/user-attachments/assets/be140421-ab78-46f0-8da3-12e48729160e)
 
 **After Oversampling(SMOTE) Process**
+
 ![image](https://github.com/user-attachments/assets/b4516d5b-c6f9-4c03-85e8-a7c224b778f1)
 
 
@@ -99,15 +101,7 @@ This project aims to detect hate speech in Turkish tweets using machine learning
 - **After Resampling:** Random Forest (F1-Score: **0.77**) showed the best results with a combination method.  
 - **Impact of Fine-Tuning:** Fine-tuned Word2Vec embeddings significantly enhanced model performance.  
 
----
 
-## Future Work
-
-- Experiment with additional transformer models like BERT for text embeddings.  
-- Automate hyperparameter tuning with tools like Optuna.  
-- Incorporate multilingual datasets for broader application.  
-
----
 
 ### Repository Files
 
