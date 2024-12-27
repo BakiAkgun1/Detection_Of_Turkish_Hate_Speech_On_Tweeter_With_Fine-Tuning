@@ -37,7 +37,7 @@ This project aims to detect hate speech in Turkish tweets using machine learning
 
 ## Text Correction
 
-- **Tool Used:** Zemberek Library ([Reference 1](https://github.com/ozturkberkay/Zemberek-PythonExamples/blob/master/examples/normalization/spell_checking.py), [Reference 2](https://github.com/ahmetaa/zemberek-nlp/tree/master/normalization)).  
+- **Tool Used:** Zemberek Library ( [Reference](https://github.com/ahmetaa/zemberek-nlp/tree/master/normalization)).  
 - **Process:**  
   - Morphological analysis using `TurkishMorphology`.  
   - Spelling corrections via `TurkishSpellChecker`.  
