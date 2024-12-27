@@ -1,4 +1,4 @@
-### Detection of Hate Speech on Turkish Tweets Using Machine Learning
+### Detection of Hate Speech on Turkish Tweets Using Machine Learning With Fine-Tuning
 
 This repository contains a project focused on detecting hate speech in Turkish tweets using various machine learning techniques. Below, you will find a summary of the steps involved, the methodology applied, and the results achieved.
 
